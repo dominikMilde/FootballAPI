@@ -1,0 +1,613 @@
+{
+	"info": {
+		"_postman_id": "fcc2d8ff-f7b8-4ea0-a8ac-cb3d27a5cc0e",
+		"name": "Footbal Players",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Seeding (Modric)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Luka",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Modrić",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Real Madrid",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Croatia",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "central midfield",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding (Messi)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Lionel",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Messi",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Barcelona",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Argentina",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "forward right",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding (Neuer)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Manuel",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Neuer",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Bayern München",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Germany",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "goalkeeper",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding (Ronaldo)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Cristiano Ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "dos Santos Aveiro",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Manchester United",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Portugal",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "forward center",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding (Perisic)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Ivan",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Perišić",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Inter Milano",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Croatian",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "left midfield",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding (Olic no club)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Ivica",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Olić",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nationality",
+							"value": "Croatian",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "central forward",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read (Modric)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read (Messi)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transfer Messi",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "club",
+							"value": "PSG",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read (Messi after transfer)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upgrade Neuer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "preferred_position",
+							"value": "center back",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding another number one (fail)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Luka",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Modrić",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Real Madrid",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Croatia",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "central midfield",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seeding nameless player (fail)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Ivan",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "last_name",
+							"value": "Horvat",
+							"type": "text"
+						},
+						{
+							"key": "club",
+							"value": "Hajduk",
+							"type": "text"
+						},
+						{
+							"key": "nationality",
+							"value": "Croatia",
+							"type": "text"
+						},
+						{
+							"key": "preferred_position",
+							"value": "left back",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read non-existing player (fail)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Olic",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Olic Again (Fail)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read deleted Olic (fail)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

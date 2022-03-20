@@ -1,0 +1,3 @@
+{'id': 1, 'first_name': 'Luka', 'last_name': 'Modrić', 'club': 'Real Madrid', 'nationality': 'Croatia', 'preferred_position': 'central midfield', 'last_modified': '2022-03-20T03:40:00.459446'}
+Data fetched: 2022-03-20 11:04:18.402402
+-------------------------------------- 
